@@ -64,3 +64,64 @@ Implementation: Implement the Midpoint Circle Drawing algorithm. The final outpu
 Example Output:
 
 
+
+
+# PROJECT
+
+
+# Facial Expression Simulator
+
+An interactive OpenGL program that displays various facial expressions with animation capabilities.
+
+
+
+## Features
+
+- Displays 6 different facial expressions:
+  - Happy 😊
+  - Sad 😢
+  - Crying 😭
+  - Neutral 😐
+  - Laughing 😂
+  - Smirk 😏
+- Includes an animated rotating "Joker Face" (option 7)
+- Uses midpoint algorithms for drawing lines and circles
+- Interactive menu system
+
+## Requirements
+
+- Python 3.x
+- PyOpenGL
+- NumPy
+- FreeGLUT (for Linux/Mac) or equivalent OpenGL utilities
+
+When prompted, enter a number (1-7) corresponding to the emotion you want to display:
+
+################
+Facial expression based on current emotion: 
+1) Happy 
+2) Sad 
+3) Crying 
+4) Neutral 
+5) Laughing 
+6) Smirk 
+7) Rotating Joker Face trying to more laugh (Animated)
+What's your emotion right now? Enter:
+
+
+## Technical Details:
+
+Uses midpoint line and circle drawing algorithms
+
+Implements zone conversion for line drawing in all octants
+
+Includes matrix transformations for rotation animation
+
+Built with:
+
+OpenGL for rendering
+
+GLUT for window management
+
+NumPy for matrix operations
+
