@@ -3,6 +3,8 @@
 
 # Lab Assignment 1
 
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%201"> LAB 1</a> <br> 
+
 Task 1: Drawing Pixels
 You are supposed to draw 50 pixels (coordinate points). For this you need to generate
 100 random values (50 x - coordinates and 50 y - coordinates). You do not need to join
@@ -19,8 +21,16 @@ has been provided as an example. You can modify the house design to your liking.
 Show your Student ID where each digit should be of different colors.
 
 
-# Lab Assignment 02
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%201"> LAB 1</a> <br> 
 
+|
+
+
+|
+
+
+# Lab Assignment 02
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%202"> LAB 2</a> <br> 
 
 🔭 Lab Assignment 2: Midpoint Line Algorithm & 8-Way Symmetry
 
@@ -44,10 +54,12 @@ Example Output:
 
 For a student ID ending in 06, the output should look like this:
 
-
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%202"> LAB 2</a> <br> 
 
 
 # Lab Assignment 03
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%203"> LAB 3</a> <br> 
 
 
 🎨 Lab Assignment 3: Midpoint Circle Algorithm
@@ -64,12 +76,15 @@ Implementation: Implement the Midpoint Circle Drawing algorithm. The final outpu
 Example Output:
 
 
-
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%203"> LAB 3</a> <br> 
 
 # PROJECT
 
 
+
 # Facial Expression Simulator
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Project"> Project</a> <br> 
 
 An interactive OpenGL program that displays various facial expressions with animation capabilities.
 
@@ -120,6 +135,9 @@ Includes matrix transformations for rotation animation
 Built with:
 
 OpenGL for rendering
+
+
+Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Project"> Project</a> <br> 
 
 GLUT for window management
 
